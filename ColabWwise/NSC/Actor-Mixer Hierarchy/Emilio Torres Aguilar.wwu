@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{76AB3103-0247-4425-8AF8-AF701CA2176A}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Emilio Torres Aguilar" ID="{76AB3103-0247-4425-8AF8-AF701CA2176A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="emiliotorresaguilar" ID="{11FC91A4-A5BC-42F6-9F9A-DA0D44EA8317}" ShortID="230126475">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{B095AA85-54E9-45B3-A032-C08F48F68334}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{5A514F9B-D2D9-43D9-BD5A-BF0D766AFCEB}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Parth_fx_one_shot_legoloms" ID="{D75AC045-4FF9-42CA-83CC-B03627E873AE}">
+							<Language>SFX</Language>
+							<AudioFile>Parth_fx_one_shot_legoloms.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1035640854"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Parth_fx_one_shot_legoloms" ID="{D75AC045-4FF9-42CA-83CC-B03627E873AE}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
